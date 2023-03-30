@@ -1,4 +1,4 @@
-FROM python:alpine 
+FROM python:3-alpine3.17 
 COPY . /app
 WORKDIR /app
 RUN apk add curl
